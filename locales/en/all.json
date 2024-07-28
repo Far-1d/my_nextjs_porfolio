@@ -1,0 +1,116 @@
+{
+    "nav": [
+        { "name": "About", "link": "#about" },
+        { "name": "Skills", "link": "#skills" },
+        { "name": "Projects", "link": "#projects" },
+        { "name": "Experiences", "link": "#Experiences" },
+        { "name": "Contact", "link": "#Contact" }
+    ],
+    "hero":{
+        "hello": "HELLO",
+        "me": "I am Farid Zarei",
+        "job": "Python Backend Developer",
+        "about": "About Me",
+        "nav-about": "About",
+        "nav-skills": "Skills",
+        "nav-projects": "Projects",
+        "nav-experiences": "Experiences",
+        "nav-contact": "Contact"
+    },
+    "gridItems" : [
+        {
+          "id": 1,
+          "title": "Proficiency in Python and familiar with nextjs to do full stack website design",
+          "description": "Proficient with Django and familiar with FastApi, worked with postgres and redis, experience with git and github, familiar with Docker , OOP - Design Pattern - SOLID principles",
+          "className": "lg:col-span-3 md:col-span-6 md:row-span-4",
+          "titleClassName": "lg:justify-end lg:mt-0 md:justify-end md:mt-3 sm:justify-center text-xl"
+      
+        },
+        {
+          "id": 2,
+          "title": "Sanandaj",
+          "description": "Iran",
+          "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+          "imgClassName": "",
+          "titleClassName": "justify-start text-xl"
+        },
+        {
+          "id": 3,
+          "title": "Tech enthusiast interested in coding",
+          "description": "no matter what framework or language",
+          "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+          "titleClassName": "justify-start text-xl"
+        },
+      
+        {
+          "id": 4,
+          "title": "Currently imporving my django skills",
+          "description": "and much more alongside it",
+          "className": "md:col-span-3 md:row-span-1",
+          "titleClassName": "md:justify-start lg:justify-center text-xl"
+        },
+        {
+          "id": 5,
+          "title": "Do you want to work together?",
+          "description": "",
+          "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
+          "titleClassName": "justify-center md:max-w-full max-w-60 text-center text-xl"
+        }
+    ],
+    "more_me": {
+        "btn": "See more",
+        "title":"More About Me",
+        "a":"From university when studying mechanical engineering up until now that i am following a path of becoming a python senior developer, i never stopped from learning and i always wanted more and wanted to grow higher.",
+        "b":"After starting a new path and completing many freelance projects during last year and passing the tough starting times, i can say that my passion for programming is a true one.",
+        "c":"I also spent some time writing trading robots and EA using C and Mql and beside that i enjoy doing 3D designs using blender. as a self-taught developer i can tell that i have no limit in learning new skills.",
+        "d":"Loving freelance working i see that it is time for me to go on a more stable career, enjoying my growth with other people and helping others grow too. for me an evolving, intimate environment with meritocratic policies is like a dream coming true."
+    },
+    "skill": {
+        "my": "My",
+        "skills":"Skills"
+    },
+    "proj":{
+        "select": "A selection of ",
+        "proj": "recent projects"
+    },
+    "projects": [
+        {
+          "id": 1,
+          "title": "Crypto Api Integration",
+          "des": "with the help of this site you have a pretty comprehensive tool set to explore and research cryptocurrency. used nextjs for a neat design and django for a powerful backend.",
+          "img": "/project 1.png",
+          "iconLists": ["/Django.svg", "/REST.svg", "/FastAPI.svg", "/Redis.svg"],
+          "link": "https://github.com/Far-1d"
+        },
+        {
+          "id": 2,
+          "title": "My Porfolio website",
+          "des": "Modern ui design, implementing next.js component with django for backend",
+          "img": "/project 2.png",
+          "iconLists": ["/next.svg", "/Django.svg", "/Tailwind CSS.svg", "/TypeScript.svg", "/fm.svg"],
+          "link": "#"
+        }
+    ],
+    "exp":{
+        "work":"Work",
+        "exp":"Experience"
+    },
+    "experiences" : [
+        {
+          "id": 1,
+          "title": "Python Freelancer",
+          "year": "2023-2024",
+          "desc": "Successfully finished multiple python projects each with unique needs and a thing or two to learn, not only that but also worked on financial robot using mlq and pine script.",
+          "link": "https://karlancer.com/profile/320925",
+          "className": "md:col-span-2",
+          "thumbnail": "/stars.svg"
+        }
+    ],
+    "footer":{
+        "more1": "Looking for",
+        "more2": " more ",
+        "more3": "info ?",
+        "touch": "Let's get in touch",
+        "copy": "All Rights Reserved."
+    }
+}

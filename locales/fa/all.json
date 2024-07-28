@@ -1,0 +1,112 @@
+{
+    "nav": [
+        { "name": "من", "link": "#about" },
+        { "name": "مهارت ها", "link": "#skills" },
+        { "name": "پروژه ها", "link": "#projects" },
+        { "name": "تجربیات", "link": "#Experiences" },
+        { "name": "ارتباط با من", "link": "#Contact" }
+    ],
+    "hero": {
+        "hello": "سلام",
+        "me": "من فرید زارعی هستم",
+        "job": "Python Backend Developer",
+        "about": "درباره من"
+    },
+    "gridItems" : [
+        {
+          "id": 1,
+          "title": "تسلط بر پایتون و آشنا به nextjs برای طراحی کامل وبسایت",
+          "description": "تسلط بر django و آَشنا با FastApi ، کار با پایگاه داده های postgres و redis ، تجربه کار با git و github ، آشنایی با مفاهیم DevOps و کار با Docker ، کد نویسی تمیز به کمک شی‌گرایی و design patternsو اصول SOLID",
+          "className": "lg:col-span-3 md:col-span-6 md:row-span-4",
+          "titleClassName": "lg:justify-end lg:mt-0 md:justify-end md:mt-3 sm:justify-center text-xl"
+      
+        },
+        {
+          "id": 2,
+          "title": "سنندج",
+          "description": "ایران",
+          "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+          "imgClassName": "",
+          "titleClassName": "justify-start text-xl"
+        },
+        {
+          "id": 3,
+          "title": "علاقه‌مند به تکنولوژی و برنامه نویسی",
+          "description": "فرقی نداره چه زبان یا فریم‌ورکی باشه",
+          "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+          "titleClassName": "justify-start text-xl"
+        },
+      
+        {
+          "id": 4,
+          "title": "در حال ارتقای مهارت های django و api",
+          "description": "و خیلی چیزای دیگه در کنار اونا ",
+          "className": "md:col-span-3 md:row-span-1",
+          "titleClassName": "md:justify-start lg:justify-center text-xl"
+        },
+        {
+          "id": 5,
+          "title": "آیا تمایل به همکاری دارید ؟",
+          "description": "",
+          "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
+          "titleClassName": "justify-center md:max-w-full max-w-60 text-center text-xl"
+        }
+    ],
+    "more_me": {
+        "btn": "بیشتر",
+        "title":"",
+        "a":"از دانشگاه،  از وقتی که در رشته مهندسی مکانیک درس می‌خوندم، تا الان که توی مسیر رسیدن به سطح ارشد برنامه نویس پایتون هستم، همیشه دنبال یادگیری تکنولوژی های جدید و پیشرفت بودم.",
+        "b":"بعد شروع یه مسیر جدید و تکمیل تعداد زیادی از پروژه های فریلنسری تو سال قبل و پشت سر گذاشتن روزهای سخت شروع، می تونم بگم که اشتیاقم به برنامه نویسی یه اشتیاق واقعی بوده.",
+        "c":"همچنین مدتی رو صرف نوشتن ربات‌های مالی و EA با استفاده از C و mql کردم و جدای از اون از طراحی های سه بعدی با blender لذت می‌برم. به عنوان یه برنامه نویس خودآموخته میتونم بگم هیچ محدودیتی در یادگیری مهارت های جدید ندارم.",
+        "d":"با علاقه ای که به  فریلنسری دارم فکر میکنم که وقت این شده که دنبال مسیر پایدارتری برم و از رشد خودم در کنار دیگران لذت ببرم و به رشد بقیه کمک کنم. برای من یه محیط در حال پیشرفت و صمیمی با سیاست های شایسته سالاری مثل رویاییه که به حقیقت پیوسته."
+    },
+    "skill": {
+        "my": "های من",
+        "skills":"مهارت"
+    },
+    "proj":{
+        "select": "منتخبی از ",
+        "proj": "پروژه های اخیر"
+    },
+    "projects": [
+        {
+          "id": 1,
+          "title": "ادغام apiهای ارز دیجیتال",
+          "des": "با کمک این سایت شما یک مجموعه ابزار بسیار جامع برای کشف و تحقیق در مورد ارزهای دیجیتال دارید.",
+          "img": "/project 1.png",
+          "iconLists": ["/Django.svg", "/REST.svg", "/FastAPI.svg", "/Redis.svg"],
+          "link": "https://github.com/Far-1d"
+        },
+        {
+          "id": 2,
+          "title": "پورفولیو شخصی",
+          "des": "طراحی رابط کاربری مدرن، اجرای کامپوننت های next.js با جنگو برای بک اند",
+          "img": "/project 2.png",
+          "iconLists": ["/next.svg", "/Django.svg", "/Tailwind CSS.svg", "/TypeScript.svg", "/fm.svg"],
+          "link": "#"
+        }
+    ],
+    "exp":{
+        "work":"کاری ",
+        "exp":" تجربیات "
+    },
+    "experiences" : [
+        {
+          "id": 1,
+          "title": "فریلنسر پایتون",
+          "year": "2023-2024",
+          "desc": "اجرا و اتمام پروژه های متعدد پایتون که هر کدام نیازها و خروجی های خاص خود را لازم داشتند که به رشد و یادگیری من کمک کرد. همچنین پروژه های متنوعی برای ساخت ربات های مالی داشتم که به زبان های غیر از پایتون بود که باعث دید وسیعتری از برنامه نویسی شد. ",
+          "link": "https://karlancer.com/profile/320925",
+          "className": "md:col-span-2",
+          "thumbnail": "/stars.svg"
+        }
+    ],
+    "footer": {
+        "more1": "اطلاعات",
+        "more2": " بیشتری ",
+        "more3": " لازم دارید ؟",
+        "touch": "همین الان بهم پیام بدید",
+        "copy": ".تمامی حقوق محفوظ است"
+    }
+    
+}
