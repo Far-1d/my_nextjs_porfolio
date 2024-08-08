@@ -15,12 +15,18 @@ export default async function workExperience({
     const {exp} = await getDictionary(lang)
   return (
     <div className="py-20" id="Experiences">
+        {lang != 'fa' && (
         <h1 className="heading">
-            {''} {''}
-            <span className={`text-purple ${lang==="fa"? 'inline': ''}`}>{exp.exp}</span>
-            <span>{exp.work} </span>
+            <span className='inline'>{exp.work} </span>
+            <span className='inline text-purple'>{exp.exp} </span>
         </h1>
-
+        )}
+        {lang=== 'fa' && (
+        <h1 className="heading">
+            <span className='inline text-purple'>{exp.exp} </span>
+            <span className='inline'>{exp.work} </span>
+        </h1>
+        )}
         <div  dir={`${lang=== 'fa' ? 'rtl': 'ltr'}`} className="w-full mt-16 grid grid-cols-2 gap-10 justify-center">
             {experiences.map((card) =>(
                 <Button

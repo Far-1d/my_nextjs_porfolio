@@ -25,9 +25,9 @@ export default function Home({
         <div className="max-w-7xl w-full">
           <MultiLangNav params={p}/>
           <Hero params={p}/>
+          <RecentProjects params={p}/>
           <Grid params={p}/>
           <SkillScroll params={p}/>
-          <RecentProjects params={p}/>
           <WorkExperience params={p}/>
           <Footer params={p}/>
         </div>

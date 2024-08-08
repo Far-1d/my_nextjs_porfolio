@@ -1,8 +1,8 @@
 {
     "nav": [
+        { "name": "Projects", "link": "#projects" },
         { "name": "About", "link": "#about" },
         { "name": "Skills", "link": "#skills" },
-        { "name": "Projects", "link": "#projects" },
         { "name": "Experiences", "link": "#Experiences" },
         { "name": "Contact", "link": "#Contact" }
     ],
@@ -58,6 +58,8 @@
         }
     ],
     "more_me": {
+        "header1": "About",
+        "header2": "Me",
         "btn": "See more",
         "title":"More About Me",
         "a":"From university when studying mechanical engineering up until now that i am following a path of becoming a python senior developer, i never stopped from learning and i always wanted more and wanted to grow higher.",

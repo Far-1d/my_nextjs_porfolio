@@ -22,6 +22,12 @@ export default async function Grid({
   const {gridItems} = await getDictionary(lang)
   return (
     <section id='about'>
+        <div className='flex items-center justify-center pt-8 pb-16'>
+            <h1 className='heading text-3xl font-extrabold'>
+              <span className='inline'>{more_me.header1} </span>
+              <span className='inline text-purple'>{more_me.header2} </span>
+            </h1>
+        </div>
         <BentoGrid>
             {gridItems.map ( ({id, title, description, className, 
                 titleClassName}) => (

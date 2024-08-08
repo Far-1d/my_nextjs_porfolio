@@ -63,7 +63,7 @@ export const BentoGridItem = ({
   const icon = id=== 1? <IoRocketOutline  /> : id === 2 ? <IoLocationOutline/> : id ===3 ? <IoLayersOutline  /> : id===4? <IoFlashOutline/> :''
   const copied_text = lang==="fa"? 'ایمیل کپی شد' :'Email copied';
   const not_copied_text = lang==="fa"? 'کپی ایمیل' :'Copy my email';
-  console.log(lang , " ++++++++++++++++++++++++++++++ ");
+
   return (
     
         <div
