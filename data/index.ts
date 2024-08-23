@@ -50,61 +50,78 @@ export const gridItems = [
 export const skills_1 = [
   {
     icon: '/Django.svg',
+    delay: 0,
+    name: 'Django'
   },
   {
     icon: '/REST.svg',
-  },
-  {
-    icon: '/FastAPI.svg',
-  },
-  {
-    icon: '/Redis.svg',
-  },
-  {
-    icon: '/Celery.svg',
+    delay: 0.2,
+    name: 'Django Rest Framework'
   },
   {
     icon: '/PostgresSQL.svg',
+    delay: 0.4,
+    name: 'Postgres'
   },
+  {
+    icon: '/Next.svg',
+    delay: 0.6,
+    name: 'Nextjs'
+  },
+  {
+    icon: '/Celery.svg',
+    delay: 0.8,
+    name: 'celery'
+  },
+  {
+    icon: '/Redis.svg',
+    delay: 1,
+    name: 'Redis'
+  },
+  
 ];
 export const skills_2 = [
   {
-    icon: '/Docker.svg',
-  },
-  {
     icon: '/git.svg',
+    delay: 0.3,
+    name: 'Git'
   },
   {
     icon: '/GitHub.svg',
+    delay: 0.6,
+    name: 'GitHub'
   },
   {
     icon: '/NGINX.svg',
+    delay: 0.9,
+    name: 'Nginx'
   },
   {
-    icon: '/MySQL.svg',
+    icon: '/Tailwind CSS.svg',
+    delay: 1.1,
+    name: 'Tailwind CSS'
   },
   {
     icon: '/Selenium.svg',
+    delay: 1.3,
+    name: 'Selenium'
   },
 ];
-export const hobbies = [
+export const skills_3 = [
   {
-    icon: '/skills/Blender.svg',
+    icon: '/FastAPI.svg',
+    delay: 0.25,
+    name: 'FastAPI'
   },
   {
-    icon: '/skills/Arduino.svg',
+    icon: '/TypeScript.svg',
+    delay: 0.45,
+    name: 'TypeScript'
   },
   {
-    icon: '/skills/Next.js.svg',
-  },
-  {
-    icon: '/skills/Tailwind CSS.svg',
-  },
-  {
-    icon: '/skills/TypeScript.svg',
-  },
-  {
-    icon: '/skills/Postman.svg',
+    icon: '/Postman.svg',
+    delay: 0.65,
+    name: 'Postman'
   },
 ];
 
@@ -153,10 +170,10 @@ export const socialMedia = [
 ];
 
 export const chartData = [
-  { skill: "Django", current: 60, max: 100 },
-  { skill: "dj Rest", current: 52, max: 100 },
-  { skill: "FastApi", current: 48, max: 100 },
-  { skill: "Postgres", current: 56, max: 100 },
-  { skill: "celery", current: 60, max: 100 },
-  { skill: "Nextjs", current: 50, max: 100 },
+  { skill: "Django", current: 51},
+  { skill: "drf", current: 40},
+  { skill: "Postgres", current: 38},
+  { skill: "Nextjs", current: 30},
+  { skill: "celery", current: 30},
+  { skill: "tailwind", current: 45},
 ];

@@ -20,8 +20,8 @@
     "gridItems" : [
         {
           "id": 1,
-          "title": "Proficiency in Python and familiar with nextjs to do full stack website design",
-          "description": "Proficient with Django and familiar with FastApi, worked with postgres and redis, experience with git and github, familiar with Docker , OOP - Design Pattern - SOLID principles",
+          "title": "Full stack website design with django and nextjs",
+          "description": "Proficient with Django and familiar with drf, worked with postgres and redis, experience with git and github, OOP - Design Pattern - SOLID principles",
           "className": "lg:col-span-3 md:col-span-6 md:row-span-4",
           "titleClassName": "lg:justify-end lg:mt-0 md:justify-end md:mt-3 sm:justify-center text-xl"
       
@@ -44,7 +44,7 @@
       
         {
           "id": 4,
-          "title": "Currently imporving my django skills",
+          "title": "Currently improving my django skills",
           "description": "and much more alongside it",
           "className": "md:col-span-3 md:row-span-1",
           "titleClassName": "md:justify-start lg:justify-center text-xl"
@@ -79,17 +79,17 @@
         {
           "id": 1,
           "title": "Crypto Api Integration",
-          "des": "with the help of this site you have a pretty comprehensive tool set to explore and research cryptocurrency. used nextjs for a neat design and django for a powerful backend.",
-          "img": "/project 1.png",
-          "iconLists": ["/Django.svg", "/REST.svg", "/FastAPI.svg", "/Redis.svg"],
-          "link": "https://github.com/Far-1d"
+          "des": "a website to explore, enjoy and use cryptocurrency. used nextjs for a neat design and django for a powerful backend.",
+          "img": "/cp2.png",
+          "iconLists": ["/Django.svg","/celery.svg","/next.svg", "/Tailwind CSS.svg", "/REST.svg", "/PostgresSQL.svg" ],
+          "link": "https://cryptopunch.tech"
         },
         {
           "id": 2,
           "title": "My Porfolio website",
-          "des": "Modern ui design, implementing next.js component with django for backend",
+          "des": "Modern ui design, implementing nextjs components and tailwind css",
           "img": "/project 2.png",
-          "iconLists": ["/next.svg", "/Django.svg", "/Tailwind CSS.svg", "/TypeScript.svg", "/fm.svg"],
+          "iconLists": ["/next.svg", "/Tailwind CSS.svg", "/TypeScript.svg", "/fm.svg"],
           "link": "#"
         }
     ],

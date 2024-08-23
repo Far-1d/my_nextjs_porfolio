@@ -1,7 +1,6 @@
 'use client'
 
 import { cn } from "@/lib/utils";
-import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import React, { useState } from "react";
 import animationData from '@/data/confetti.json'
@@ -11,7 +10,6 @@ import { Meteors } from "./meteors";
 import {IoCopyOutline} from 'react-icons/io5'
 import { BackgroundBeams } from "./background-beams";
 import { motion } from "framer-motion";
-import { HeroHighlight, Highlight } from "./hero-highlight";
 import { IoLocationOutline } from "react-icons/io5";
 import { IoLayersOutline  } from "react-icons/io5";
 import { IoRocketOutline } from "react-icons/io5";
@@ -68,7 +66,9 @@ export const BentoGridItem = ({
     
         <div
           className={cn(
-            "row-span-1 relative overflow-hidden rounded-2xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 border border-white/[0.1]",
+            "row-span-1 relative overflow-hidden rounded-2xl group/bento hover:shadow-xl",
+            "transition duration-200 shadow-input justify-between flex",
+            "flex-col border border-white/[0.1]",
             className
           )}
           style={{
@@ -76,7 +76,6 @@ export const BentoGridItem = ({
               backgroundColor: 'linear-gradient(90deg, rgba(11,11,15,0.8) 0%, rgba(32,32,56,0.8) 35%, rgba(36,35,156,0.8) 100%)',
           }}
         > 
-          <HeroHighlight>
             <motion.h1
               initial={{
                 opacity: 0,
@@ -90,40 +89,35 @@ export const BentoGridItem = ({
                 duration: 0.5,
                 ease: [0.4, 0.0, 0.2, 1],
               }}
-              className=" max-w-4xl leading-relaxed lg:leading-snug "
+              className="leading-relaxed lg:leading-snug "
             >
-              <div className={`${id===5 && 'flex justify-center'} h-full`}>
-                {id===5 && (
-                    <BackgroundGradientAnimation>
-                        
-                    </BackgroundGradientAnimation>
-                )}
+              <div className={`${id===5 && "flex justify-center bg-[url('/gradient.svg')] bg-cover bg-no-repeat"} h-full`}>
+              
                 {id === 3 && (
                   // 
                   <BackgroundBeams />
                 )}
                 <div className={cn( 
-                    'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-3 p-5 lg:p-10 left-0 ',
-                    id=== 1 ? 'lg:top-[-4.25rem] md:-top-2' : id===2 ? '-top-2 lg:-top-4':  id===3 ? '-top-1' : id === 4 ? 'md:-top-4 lg:-top-10': 'top-0')}>
-                    <div dir={`${lang==='fa' ? 'rtl': 'ltr'}`}
-                    className="group-hover/bento:translate-x-2 transition duration-200">
+                      'group-hover/bento:translate-x-2 transition duration-200 relative h-full min-h-40 flex flex-col px-3 mt-4',
+                      id==5 ? "group-hover/bento:translate-x-0":"" )}>
+                    <div dir={`${lang==='fa' ? 'rtl': 'ltr'}`} className="">
                       
-                      <div className={cn("font-sans font-bold text-nek:utral-600 dartext-neutral-200 mb-2 mt-2 flex items-start", titleClassName)}>
-                        <div className="flex items-center mr-2 ml-2 mt-1">
+                      <div className={cn("font-sans font-bold m-2 flex items-start", titleClassName)}>
+                        <span className="mx-2 mt-1">
                           {icon}
-                        </div>
-                        <div className="flex-1 z-100">
+                        </span>
+                        <div className="flex-1 z-20">
                           {title}
                         </div>
                       </div>
-                      <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
-                        <span className="ml-6 mr-6">{description}</span>
+                      <div className="font-sans font-normal text-neutral-200 text-xs md:text-sm">
+                        <p className={`mx-[44px] max-w-96 ${id===1 ? 'hidden':''}`}>{description}</p>
                       </div>
                     </div>
                     
                     {id===1 && (
-                      <div className="h-20">
-                        <Component/>
+                      <div className="h-40">
+                        <Component desc={description} lang={lang}/>
                       </div>
                     )}
 
@@ -134,9 +128,8 @@ export const BentoGridItem = ({
                       <Meteors number={20} />
                     )}
                     {id===4 && (
-                      <div className="flex flex-row md:flex-col items-center 
-                      justify-end sm:justify-around md:items-end gap-x-4 md:gap-0
-                      py-2 lg:py-0 md:pt-6 text-xl md:text-2xl">
+                      <div className="flex items-center justify-end h-full mb-2 sm:mb-8 mr-8
+                       text-xl font-semibold">
                         <ChangingDiv />
                       </div>
                     )}
@@ -166,7 +159,6 @@ export const BentoGridItem = ({
 
               </div>
           </motion.h1>
-        </HeroHighlight>
       </div>
   );
 };

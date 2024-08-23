@@ -15,8 +15,8 @@
     "gridItems" : [
         {
           "id": 1,
-          "title": "تسلط بر پایتون و آشنا به nextjs برای طراحی کامل وبسایت",
-          "description": "تسلط بر django و آَشنا با FastApi ، کار با پایگاه داده های postgres و redis ، تجربه کار با git و github ، آشنایی با مفاهیم DevOps و کار با Docker ، کد نویسی تمیز به کمک شی‌گرایی و design patternsو اصول SOLID",
+          "title": "طراحی کامل وبسایت با django و nextjs",
+          "description": "تسلط بر django و آشنا با drf، کار با پایگاه داده های postgres و redis، تجربه کار با git و github، کدنویسی تمیز به کمک شی گرایی، design pattern و solid ",
           "className": "lg:col-span-3 md:col-span-6 md:row-span-4",
           "titleClassName": "lg:justify-end lg:mt-0 md:justify-end md:mt-3 sm:justify-center text-xl"
       
@@ -75,16 +75,16 @@
           "id": 1,
           "title": "ادغام apiهای ارز دیجیتال",
           "des": "با کمک این سایت شما یک مجموعه ابزار بسیار جامع برای کشف و تحقیق در مورد ارزهای دیجیتال دارید.",
-          "img": "/project 1.png",
-          "iconLists": ["/Django.svg", "/REST.svg", "/FastAPI.svg", "/Redis.svg"],
-          "link": "https://github.com/Far-1d"
+          "img": "/cp2.png",
+          "iconLists": ["/Django.svg","/celery.svg","/next.svg", "/Tailwind CSS.svg", "/REST.svg", "/PostgresSQL.svg" ],
+          "link": "https://cryptopunch.tech"
         },
         {
           "id": 2,
           "title": "پورفولیو شخصی",
-          "des": "طراحی رابط کاربری مدرن، اجرای کامپوننت های next.js با جنگو برای بک اند",
+          "des": "طراحی رابط کاربری مدرن، اجرای کامپوننت های nextjs و tailwind css ",
           "img": "/project 2.png",
-          "iconLists": ["/next.svg", "/Django.svg", "/Tailwind CSS.svg", "/TypeScript.svg", "/fm.svg"],
+          "iconLists": ["/next.svg","/Tailwind CSS.svg", "/TypeScript.svg", "/fm.svg"],
           "link": "#"
         }
     ],

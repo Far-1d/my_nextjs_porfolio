@@ -26,18 +26,18 @@ export default async function RecentProjects({
             {projects.map(({id, title, des, img, iconLists, link }) => (
                 
                 <div key={id} className="lg:min-h-[32.5rem] h-[25rem]
-                    flex items-center justify-center sm:w-96 w-[80vw]">
+                    flex items-center justify-center sm:w-96 lg:w-[30rem] w-[80vw]">
                     <PinContainer
-                        title="..."
+                        title={link}
                         href={link}
                     >
                         <div className='relative flex imtes-center 
-                        justify-center overflow-hidden sm:w-96 w-[80vw]
+                        justify-center overflow-hidden sm:w-96 w-[80vw] lg:w-[30rem]
                         h-[24vh] lg:h-[30vh] mb-10'>
                             <div className='relative w-full h-full 
                             overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                 <Image src="/bg.png" alt="bg-png"
-                                    width={500} height={500}/>
+                                    width={400} height={400}/>
                             </div>
                             <Image src={img} alt={""} width={500} height={500}
                                 className="z-10 absolute" />

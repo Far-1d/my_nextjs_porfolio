@@ -3,6 +3,8 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 import { skills_1, skills_2 } from '@/data';
 import { Locale } from '@/i18n.config';
 import { getDictionary } from '@/lib/dictionary'
+import SkillSpawn from './ui/SkillSpawn';
+
 
 export default async function SkillScroll({
     params: { lang }
@@ -25,20 +27,20 @@ export default async function SkillScroll({
             </div>
         </div>
         <div className='w-5/6 md:w-3/4 mx-auto mt-16' >
-            <div className='w-full md:w-4/5 mx-auto py-4'>
+            {/* <div className='w-full md:w-4/5 mx-auto py-4'>
                 <InfiniteMovingCards
                     items={skills_1}
                     direction="right"
                     speed="normal"
                 />
-            </div>
-            <div className='w-full md:w-4/5 mx-auto py-2'>
+            </div> */}
+            {/* <div className='w-full md:w-4/5 mx-auto py-2'>
                 <InfiniteMovingCards
                     items={skills_2}
                     direction="left"
                     speed="normal"
                 />
-            </div>
+            </div> */}
             {/* <div className='w-3/4 mx-auto py-6'>
                 <InfiniteMovingCards
                     items={hobbies}
@@ -46,6 +48,8 @@ export default async function SkillScroll({
                     speed="normal"
                 />
             </div> */}
+            <SkillSpawn/>
+            
         </div>
     </div>
   )
